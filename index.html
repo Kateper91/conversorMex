@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Casa de Cambio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor</h1>
+        <hr>
+        <form class="formulario">
+            <p>Ingresar monto </p>
+            <input type="number" id="valor" min="1" max="500000" value="0">
+            <input type="button" id="cotizador" value="Cotizar" onclick="convertir()">
+            <p>Convertir de: </p>
+            <select name="" id="de">
+                <option value="1">Peso Argentino</option>
+                <option value="2">Peso Mexicano</option>
+            </select> <br> <br>
+            <p>Convertir a:</p>
+            <select name="" id="a">
+                <option value="1">Peso Argentino</option>
+                <option value="2">Dolares</option>
+                <option value="3">Euros</option>
+                <option value="4">Peso Mexicano</option>
+            </select><br>
+            <p></p>
+        </form>
+    </div>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
